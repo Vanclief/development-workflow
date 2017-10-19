@@ -48,16 +48,17 @@ descriptions.
 
 _Examples:_
 
-"Created a new Controller for purchases" - Good
+* "Created a new Controller for purchases" - Good
 
-"Finished controller" - Bad (What controller?)
+* "Finished controller" - Bad (What controller?)
 
-"Fix" - Bad
+* "Fix" - Bad
 
-"Fix bug with Navigation in Product View" - Good
+* "Fix bug with Navigation in Product View" - Good
 
-You can create temporary commits like "WIP" as long as they are squashed latter
-before merging the branch.
+_You can create temporary commits like "WIP" as long as they are squashed latter
+before merging the branch._
+
 
 2. Keep pushing your commits to the remote repository, never work on a stale
 branch.
@@ -73,9 +74,9 @@ OpenProject.
 Once you have finished working on the task, perform the following steps to make
 sure your work is ready to be merged.
 
-1. Run tests in your *local environment*.
+1. Run tests in your **local environment**.
 
-2. Test in your *local environment* that the task that you worked in is completely functional and
+2. Test in your **local environment** that the task that you worked in is completely functional and
 fulfills the requirements for "Finished" that the Task required.
 
 3. Check that your branch has passed on the continuous integration and delivery platform.
@@ -123,7 +124,7 @@ TODO
 
 *Why Rebasing?*
 
-TLDR: Rebasing allows crafting a much cleaner project history.
+Rebasing allows crafting a much cleaner project history.
 
 *What is Rebasing?*
 
@@ -155,7 +156,7 @@ For this example, we will be assuming we will be rebasing `feature` into
 Now a text editor will show up with a list of all the commits the rebase will be
 working with:
 
-![Rebase -i](https://www.ducksoupdev.co.uk/images/vim-visual-block1.jpg)
+![Rebase -i](http://fusionpbx-docs.readthedocs.io/en/latest/_images/github_rebase_3.png)
 
 We have a couple of commands:
 
