@@ -13,11 +13,9 @@ TODO:
 
 ## Setup
 
-1. Go to [Estudio I Open Project](https://www.shapeandcode.com/admin), and check if there is any Work Item assigned to you for the current iteration. If there is no Work Item assigned to you, and you have not fulfilled your hours, then talk to your Project Product Owner.
+1. Plan what you are going to do. This involves any kind of Software Engineering that is required before your start coding.
 
-2. Plan what you are going to do. This involves any kind of Software Engineering that is required before your start coding.
-
-3. Go to the project folder, make sure your repository is up to date with the remote one. To do this run the following commands:
+2. Go to the project folder, make sure your repository is up to date with the remote one. To do this run the following commands:
 
 ```
 git fetch --all
@@ -29,7 +27,7 @@ git pull --all
 ```
 _WARNING: This command will update local branches with the remote branch_
 
-4. Create a new branch from either `develop` or an specific branch if you need
+3. Create a new branch from either `develop` or an specific branch if you need
 work realized on it. Use our naming conventions:
 
 * For User Story 21: US-21/Login
