@@ -149,7 +149,7 @@ For this example, we will be assuming we will be rebasing `feature` into
 
 3. _Now, lets start the rebase:_
 
-`git rebase -i develop`
+`git rebase -i master`
 
 Now a text editor will show up with a list of all the commits the rebase will be
 working with:
